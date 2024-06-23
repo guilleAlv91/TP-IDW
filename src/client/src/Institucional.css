@@ -1,0 +1,100 @@
+.institucional {
+  padding: 80px;
+  background-color: #b3c262;
+}
+
+.institucional h1 {
+  font-size: 50px;
+  text-align: center;
+  color: white;
+}
+
+.compromiso {
+  display: flex;
+}
+
+.compromiso img {
+  height: 200px;
+  margin-right: 20px; 
+}
+
+.subtitulo {
+  display: flex;
+  flex-direction: column;
+}
+
+.compromiso h2 {
+  font-size: 30px;
+  margin-top: 0;
+  text-align: center;
+  color: rgb(25,111,61);
+}
+
+.compromiso h3 {
+  font-size: 20px;
+  margin-top: -10px; 
+  text-align: center;
+  color: white;
+}
+
+.detalles {
+  display: flex;
+}
+
+.detalles > div {
+  flex: 1;
+  margin-right: 20px; 
+}
+
+
+.compromiso h4{
+  margin: 0; 
+  font-size: 13px;
+  font-weight: bold;
+  text-align: center;
+  color: rgb(25,111,61);
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.compromiso h5 {
+  margin: 0; 
+  text-align: justify;
+  color: rgb(25,111,61);
+}
+
+.servicios {
+  display: flex;
+  margin-top: 100px;
+}
+
+.servicios img {
+  height: 200px;
+  margin-left: 20px; 
+}
+
+.subtitulo {
+  display: flex;
+  flex-direction: column;
+}
+
+.servicios h2 {
+  font-size: 30px;
+  margin-top: 0;
+  text-align: center;
+  color: white;
+}
+
+.servicios h4{
+  margin: 0; 
+  font-size: 13px;
+  font-weight: bold;
+  text-align: center;
+  color: rgb(25,111,61);
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.servicios h5 {
+  margin: 0; 
+  text-align: justify;
+  color: rgb(25,111,61);
+}

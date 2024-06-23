@@ -1,0 +1,22 @@
+footer {
+    background-color:rgb(25,111,61);
+    color: white;
+    padding-top: 20px;
+    width: 100%;
+    font-size: 15px;
+    text-align: center;
+    padding-bottom: 15px; 
+  }
+  .redes-sociales {
+    margin-bottom: 10px; 
+  }
+  .redes-sociales a {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    margin: 0 10px;
+  }
+  
+  .redes-sociales a:hover {
+    color: olive;
+  }

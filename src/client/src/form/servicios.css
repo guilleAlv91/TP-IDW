@@ -1,0 +1,104 @@
+.background {
+    position: relative;
+  }
+  
+  .background img {
+    width: 100%;
+    display: block;
+    margin-top: 60px;
+  }
+  
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .formServicios {
+    background-color: darkkhaki;
+    text-align: center;
+    padding: 20px;
+    margin-top: -570px;
+  }
+  
+  .formServicios h1 {
+    font-size: 22px;
+    text-align: center;
+    color: white;
+    font-family: 'Times New Roman';
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: -80px;
+  }
+  
+  .formServicios button {
+    padding: 8px 30px;
+    background-color: rgb(25, 111, 61);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .formServicios button:hover {
+    background-color: darkolivegreen;
+  }
+  
+  .servicios {
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .servicios input {
+    margin: 5px;
+    width: 250px;
+    height: 20px;
+  }
+  
+  .tablaServicios {
+    text-align: center;
+    height: 300px; 
+    overflow-y: auto; 
+    width: 70%;
+    margin: 20px auto; 
+    background-color: olive;
+  }
+  
+  .tablaServicios table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .tablaServicios th, .tablaServicios td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .tablaServicios th {
+    background-color: darkolivegreen;
+    color: white;
+  }
+  
+  .tablaServicios tr {
+    background-color: white;
+  }
+  
+  .tablaServicios th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+  }
+  
+  .tablaServicios h2{
+    color: white;
+  }
+  
+  .tablaServicios button{
+    margin-left: 10px;
+  }

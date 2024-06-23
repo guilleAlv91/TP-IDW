@@ -1,0 +1,130 @@
+.background {
+  position: relative;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.background img {
+  width: 100%;
+  display: block;
+  margin-bottom: -15px; 
+  margin-top: 60px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.formAlojamiento {
+  background-color: darkkhaki;
+  text-align: center;
+  padding: 20px;
+  margin-top: -570px; 
+  padding-bottom: 55px;
+  width: 240px;
+  height: 500px;
+  margin-left: -700px;
+}
+
+.formAlojamiento h1 {
+  font-size: 18px;
+  text-align: center;
+  color: white;
+  font-family: 'Times New Roman';
+  font-weight: bold;
+  margin-bottom: -5px;
+}
+
+.formAlojamiento button {
+  padding: 4px 20px;
+  background-color: rgb(25, 111, 61);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 20PX;
+}
+
+.formAlojamiento button:hover {
+  background-color: darkolivegreen;
+}
+
+.alojamientos {
+  font-size: 14px;
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column; 
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+  margin-top: 0px;
+}
+
+.alojamientos input {
+  margin: 5px;
+  width: 150px;
+  height: 10px;
+}
+
+.alojamientos select {
+  background-color: white;
+  color: black;
+  height: 15px;
+  width: 150px;
+  font-size: 12px;
+}
+
+.alojamientosTabla {
+  text-align: center;
+  margin-top: -450px;
+  color: white;
+}
+
+.tabla-alojamiento {
+  text-align: center;
+  height: 150px;
+  overflow-y: auto;
+  width: 60%;
+  margin: 20px auto;
+  background-color: olive;
+  margin-left: 450px;
+}
+
+.tabla-alojamiento table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.tabla-alojamiento th,
+.tabla-alojamiento td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.tabla-alojamiento th {
+  background-color: darkolivegreen;
+  color: white;
+}
+
+.tabla-alojamiento tr {
+  background-color: white;
+}
+
+.tabla-alojamiento th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+}
+
+.tabla-alojamiento h2 {
+  color: white;
+}
+
+.tabla-alojamiento button {
+  margin-left: 10px;
+}
+

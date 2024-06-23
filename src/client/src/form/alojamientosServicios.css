@@ -1,0 +1,110 @@
+  .background {
+    position: relative;
+  }
+  
+  .background img {
+    width: 100%;
+    display: block;
+    margin-bottom: -15px;
+    margin-top: 60px;
+  }
+  
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .formAlojamientoServicios {
+    background-color: darkkhaki;
+    text-align: center;
+    padding: 30px;
+    margin-top: -570px;
+    padding-bottom: 50px;
+  }
+  
+  .formAlojamientoServicios h1 {
+    font-size: 22px;
+    text-align: center;
+    color: white;
+    font-family: 'Times New Roman';
+    font-weight: bold;
+    padding-bottom: 20px;
+  }
+  
+  .formAlojamientoServicios button {
+    padding: 8px 30px;
+    background-color: rgb(25, 111, 61);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .formAlojamientoServicios button:hover {
+    background-color: darkolivegreen;
+  }
+  
+  .alojamientoServicios {
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .alojamientoServicios input {
+    margin: 5px;
+    width: 200px;
+    height: 20px;
+  }
+  .alojamientoServicios select {
+    background-color: white;
+    color: black;
+    height: 40px;
+  }
+
+  .tablaRelaciones {
+    text-align: center;
+    height: 200px; 
+    overflow-y: auto; 
+    width: 70%;
+    margin: 20px auto; 
+    background-color: olive;
+  }
+  
+  .tablaRelaciones table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .tablaRelaciones th, .tablaRelaciones td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .tablaRelaciones th {
+    background-color: darkolivegreen;
+    color: white;
+  }
+  
+  .tablaRelaciones tr {
+    background-color: white;
+  }
+  
+  .tablaRelaciones th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+  }
+  
+  .tablaRelaciones h2{
+    color: white;
+  }
+  
+  .tablaRelaciones button{
+    margin-left: 10px;
+  }
